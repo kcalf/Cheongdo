@@ -27,7 +27,7 @@
 | TD-05 | 모델 연결: GitHub Copilot SDK. GitHub 토큰은 Key Vault에 보관한다. 배포 환경 인증 경로는 통합 시험(TR-F-010) 통과 전까지 제안으로 본다. | C (SDK 사용), P (인증 경로) |
 | TD-06 | 스트리밍: SSE. | C |
 | TD-07 | 배치: Container Apps Jobs. cron은 UTC 기준 `0 0,6 * * *`(KST 09:00, 15:00)이다. 영업일 판정은 앱이 KST로 한다. | C |
-| TD-08 | 배포: Azure Container Apps. 개발 실행은 .NET Aspire. | C |
+| TD-08 | 배포: Azure Service. 개발 실행은 .NET Aspire. | C |
 | TD-09 | IaC와 CI/CD: azd(Bicep) + GitHub Actions. Azure 로그인은 OIDC. | C |
 | TD-10 | 비밀: Key Vault + Managed Identity. 코드에 비밀을 두지 않는다. | C |
 | TD-11 | 관찰: OpenTelemetry + Application Insights. | C (사용자가 서비스 구성으로 확정) |
